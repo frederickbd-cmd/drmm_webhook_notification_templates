@@ -2,10 +2,10 @@
     "@type": "MessageCard",
     "@context": "http://schema.org/extensions",
     "themeColor": "0076D7",
-    "summary": "New Datto RMM alert",
+    "summary": "Datto RMM alert resolved",
     "sections": [
         {
-            "activityTitle": "Alert resolved on [device_hostname] | [site_name]",
+            "activityTitle": "Resolved alert on [device_hostname] | [site_name]",
             "activitySubtitle": "IP address: [device_ip] | Last user: [last_user]",
             "activityImage": "https://i.imgur.com/YJhsAgQ.png",
             "facts": [
@@ -19,7 +19,7 @@
                 },
                 {
                     "name": "Immediate actions",
-                    "value": "This alert has been resolved. Move along, move along."
+                    "value": "This alert has been resolved."
                 }
             ],
             "markdown": true

@@ -1,0 +1,70 @@
+{
+    "@type": "MessageCard",
+    "@context": "http://schema.org/extensions",
+    "themeColor": "0076D7",
+    "summary": "New Datto RMM alert",
+    "sections": [
+        {
+            "activityTitle": "Alert resolved on [device_hostname] | [site_name]",
+            "activitySubtitle": "IP address: [device_ip] | Last user: [last_user]",
+            "activityImage": "https://i.imgur.com/YJhsAgQ.png",
+            "facts": [
+                {
+                    "name": "Category",
+                    "value": "[alert_category]"
+                },
+                {
+                    "name": "Description",
+                    "value": "[alert_message]."
+                },
+                {
+                    "name": "Immediate actions",
+                    "value": "This alert has been resolved. Move along, move along."
+                }
+            ],
+            "markdown": true
+        }
+    ],
+    "potentialAction": [
+        {
+            "@type": "OpenUri",
+            "name": "View Device",
+            "targets": [
+                {
+                    "os": "default",
+                    "uri": "https://sandboxrmm.centrastage.net/device/[device_id]/[device_hostname]"
+                }
+            ]
+        },
+        {
+            "@type": "OpenUri",
+            "name": "View Alert",
+            "targets": [
+                {
+                    "os": "default",
+                    "uri": "https://sandboxrmm.centrastage.net/alert/[alert_uid]"
+                }
+            ]
+        },
+        {
+            "@type": "OpenUri",
+            "name": "Web Remote",
+            "targets": [
+                {
+                    "os": "default",
+                    "uri": "https://sandbox.centrastage.net/csm/remote/rto/[device_id]"
+                }
+            ]
+        },
+        {
+            "@type": "OpenUri",
+            "name": "View Site",
+            "targets": [
+                {
+                    "os": "default",
+                    "uri": "https://sandboxrmm.centrastage.net/site/[site_id]/[site_name]"
+                }
+            ]
+        }
+    ]
+}

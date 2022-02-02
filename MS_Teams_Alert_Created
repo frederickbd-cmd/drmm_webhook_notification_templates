@@ -32,7 +32,7 @@
             "targets": [
                 {
                     "os": "default",
-                    "uri": "https://sandboxrmm.centrastage.net/device/[device_id]/[device_hostname]"
+                    "uri": "https://[platform]rmm.centrastage.net/device/[device_id]/[device_hostname]"
                 }
             ]
         },
@@ -42,7 +42,7 @@
             "targets": [
                 {
                     "os": "default",
-                    "uri": "https://sandboxrmm.centrastage.net/alert/[alert_uid]"
+                    "uri": "https://[platform]rmm.centrastage.net/alert/[alert_uid]"
                 }
             ]
         },
@@ -52,7 +52,7 @@
             "targets": [
                 {
                     "os": "default",
-                    "uri": "https://sandbox.centrastage.net/csm/remote/rto/[device_id]"
+                    "uri": "https://[platform].centrastage.net/csm/remote/rto/[device_id]"
                 }
             ]
         },
@@ -62,7 +62,7 @@
             "targets": [
                 {
                     "os": "default",
-                    "uri": "https://sandboxrmm.centrastage.net/site/[site_id]/[site_name]"
+                    "uri": "https://[platform]rmm.centrastage.net/site/[site_id]/[site_name]"
                 }
             ]
         }

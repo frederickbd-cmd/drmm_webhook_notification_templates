@@ -6,7 +6,7 @@
     "sections": [
         {
             "activityTitle": "New security alert on [device_hostname] | [site_name]",
-            "activitySubtitle": "IP address: [device_ip] | Last user: [last_user]",
+            "activitySubtitle": "IP address: [device_ip] | Last user: [lastuser]",
             "activityImage": "https://i.imgur.com/YJhsAgQ.png",
             "facts": [
                 {

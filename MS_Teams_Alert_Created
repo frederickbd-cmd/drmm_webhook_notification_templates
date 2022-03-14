@@ -52,7 +52,7 @@
             "targets": [
                 {
                     "os": "default",
-                    "uri": "https://[platform].centrastage.net/csm/remote/rto/[device_id]"
+                    "uri": "https://[platform]csm.centrastage.net/csm/remote/rto/[device_id]"
                 }
             ]
         },

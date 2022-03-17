@@ -62,7 +62,7 @@
             "targets": [
                 {
                     "os": "default",
-                    "uri": "https://[platform]rmm.centrastage.net/site/[site_id]/[site_name]"
+                    "uri": "https://[platform]rmm.centrastage.net/site/[site_id]"
                 }
             ]
         }
